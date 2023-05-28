@@ -1,0 +1,56 @@
+html, body{
+	height: 100%;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #abb1ba;
+}
+.login{
+	width: 275px;
+	height: 275px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 6px; 
+	border: 1.5px solid black;
+	background-color: #ffffff;
+}
+.login input{
+	width: 200px;
+	height: 35px;
+	padding: 0;
+	margin-top: 7.5px;
+	margin-bottom: 7.5px;
+	border-radius: 6px;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+a{
+	position: relative;
+	left: 45px;
+	color: #abb1ba;
+	text-decoration: none;
+}
+a:hover{
+	color: #818a98;
+}
+input[id="Sign"]{
+	border: 0px;
+	background-color: #37a69b;
+	color: #ffffff;
+}
+input[id="Sign"]:hover{
+	background-color: #246d65;
+}
+input[id="Exit"]{
+	border: 0px;
+	background-color: #a63742;
+	color: #ffffff;
+}
+input[id="Exit"]:hover{
+	background-color: #6d242b;
+}
